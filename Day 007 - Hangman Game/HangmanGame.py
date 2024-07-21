@@ -1,9 +1,7 @@
-Play here - https://replit.com/@AkashHiwale/Day-7-Hangman-5-Start#main.py
-
 from replit import clear
 import random
-import hangman_art
-import hangman_words
+from Data import hangman_art
+from Data import hangman_words
 
 
 print(hangman_art.logo)
