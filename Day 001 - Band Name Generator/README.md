@@ -10,3 +10,4 @@ The Band Name Generator is a fun tool that generates unique names for musical gr
 4. Open terminal go to "Day 001 - Band Name Generator" and run `py -u BandNameGenerator.py` to run the code.
 5. Incase of any dependancy error, download it by running `py -m pip install {dependancy-name}`
 
+![image](https://github.com/AkashHiwale/100-Days-of-Python/blob/feature/update-readme/Day%20001%20-%20Band%20Name%20Generator/Data/how-to-run.png)
