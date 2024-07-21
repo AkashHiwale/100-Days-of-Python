@@ -1,0 +1,3 @@
+# Black Jack Game
+
+Blackjack is a card game where players compete against the dealer to get a hand value as close to 21 as possible without going over. Players start with two cards and can choose to draw more ('hit') or keep their current hand ('stand'). Face cards are worth 10 points, Aces can be 1 or 11, and other cards are their face value. The game ends when a player hits 21 ('blackjack'), or both player and dealer stand and compare hands. Win by beating the dealer's score without busting, or if the dealer busts.
