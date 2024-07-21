@@ -14,7 +14,7 @@ end_of_game = False
 lives = 6
 
 #Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+#print(f'Pssst, the solution is {chosen_word}.')
 
 #Create blanks
 display = []
@@ -25,7 +25,7 @@ while not end_of_game:
     guess = input("Guess a letter: ").lower()
 
     clear()
-
+    print(hangman_art.logo)
     if guess in display:
       print(f"{guess} has been already gussed.")
 
