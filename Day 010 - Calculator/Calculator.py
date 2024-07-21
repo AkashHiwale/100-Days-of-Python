@@ -1,6 +1,4 @@
-Play here - https://replit.com/@AkashHiwale/calculator-start#main.py
-  
-import art
+from Data import art
 
 def add(n1, n2):
   return n1 + n2

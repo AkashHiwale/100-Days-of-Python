@@ -1,8 +1,6 @@
-Play here - https://replit.com/@AkashHiwale/blind-auction-start#main.py
-  
 from replit import clear
 
-import art
+from Data import art
 
 print(art.logo)
 record_dictionary = {}
