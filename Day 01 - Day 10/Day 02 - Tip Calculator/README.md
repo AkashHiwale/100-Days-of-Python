@@ -18,11 +18,11 @@ The Tip Calculator is a beginner Python challenge that practices taking user inp
 4. Open the terminal in `Day 01 - Day 10/Day 02 - Tip Calculator`.
 5. Run:
 
-   `py -u TipCalculator.py`
+   `python TipCalculator.py` or `py -u TipCalculator.py`
 
 6. If you see an error about a missing dependency, run:
 
-   `py -m pip install <dependency-name>`
+   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
 
 > Note: This project uses only the Python standard library.
 

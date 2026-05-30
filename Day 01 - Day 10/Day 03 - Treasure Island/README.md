@@ -18,11 +18,11 @@ Treasure Island is a beginner Python adventure game that practices user input, c
 4. Open the terminal in `Day 01 - Day 10/Day 03 - Treasure Island`.
 5. Run:
 
-   `py -u TreasureIsland.py`
+   `python TreasureIsland.py` or `py -u TreasureIsland.py`
 
 6. If you see an error about a missing dependency, run:
 
-   `py -m pip install <dependency-name>`
+   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
 
 > Note: This project uses only the Python standard library.
 

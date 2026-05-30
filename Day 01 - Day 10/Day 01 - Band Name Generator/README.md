@@ -18,11 +18,11 @@ The Band Name Generator is a beginner-friendly Python challenge project that bui
 4. Open the terminal in `Day 01 - Day 10/Day 01 - Band Name Generator`.
 5. Run:
 
-   `py -u BandNameGenerator.py`
+   `python BandNameGenarator.py` or `py -u BandNameGenerator.py`
 
 6. If you see an error about a missing dependency, run:
 
-   `py -m pip install <dependency-name>`
+   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
 
 > Note: This project does not require any external packages beyond the standard Python library.
 
