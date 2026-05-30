@@ -1,14 +1,12 @@
 # Band Name Generator
 
-The Band Name Generator is a beginner-friendly Python challenge project that builds basic input/output skills. It asks the user for a city name and a pet name, then combines them to generate a fun and memorable band name.
+An interactive console script that asks for your city and pet name, then combines them to produce a fun, memorable band name.
 
 ## What This Project Shows
 
-- How to interact with the user using `input()`.
-- How to store values in variables.
-- How to combine strings to produce a formatted result.
-- How to organize project assets with a `Data` folder.
-- How to use a separate module (`Data.art`) for ASCII art or console output styling.
+- Generates a playful band name from two simple inputs (city + pet name).
+- Provides immediate console feedback so users can try different inputs quickly.
+- Demonstrates a tiny, self-contained tool suitable for beginners.
 
 ## How to Run
 
@@ -28,11 +26,10 @@ The Band Name Generator is a beginner-friendly Python challenge project that bui
 
 ## Concepts Learnt
 
-1. User input with `input()`.
-2. Output with `print()`.
-3. Storing data in variables.
-4. Combining strings using concatenation.
-5. Importing from a local package/module.
+- Using `input()` to collect user input
+- Storing values in variables
+- Displaying output with `print()`
+- Combining strings to form formatted results
 
 ## What I Learned
 

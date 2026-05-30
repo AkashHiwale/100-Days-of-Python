@@ -1,14 +1,12 @@
 # Treasure Island
 
-Treasure Island is a beginner Python adventure game that practices user input, conditional logic, and simple branching paths. The player chooses directions and actions to navigate a story and try to reach the treasure.
+A short interactive adventure where the player makes decisions (left/right, swim/wait, etc.) to try to find the treasure and reach different endings.
 
 ## What This Project Shows
 
-- How to use `input()` to collect player decisions.
-- How to compare string input using `.lower()` for case-insensitive matching.
-- How to implement branching logic with `if`, `elif`, and `else`.
-- How to create a text-based adventure using sequential decision points.
-- How to display multiline text and story prompts.
+- Presents a simple, text-based adventure with branching outcomes based on choices.
+- Lets users explore different paths by entering decisions at prompts.
+- Demonstrates how small changes in input lead to different endings.
 
 ## How to Run
 
@@ -28,11 +26,10 @@ Treasure Island is a beginner Python adventure game that practices user input, c
 
 ## Concepts Learnt
 
-1. Reading user input with `input()`.
-2. Using `.lower()` to normalize text input.
-3. Controlling program flow with `if`, `elif`, and `else`.
-4. Building simple story branches and game outcomes.
-5. Writing interactive console applications.
+- Normalizing and comparing text input using `.lower()`
+- Implementing nested branching logic to create multiple story paths
+- Using multiline strings for ASCII-art or long story prompts
+- Structuring a basic text-based adventure with sequential decision points
 
 ## What I Learned
 

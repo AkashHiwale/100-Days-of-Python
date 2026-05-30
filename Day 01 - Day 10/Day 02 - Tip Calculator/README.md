@@ -1,14 +1,12 @@
 # Tip Calculator
 
-The Tip Calculator is a beginner Python challenge that practices taking user input, performing numeric conversions, and using basic control flow to compute a per-person amount when splitting a bill.
+A small utility that calculates tip amounts and (optionally) splits a bill between people, so users can quickly determine how much to pay each.
 
 ## What This Project Shows
 
-- How to read numeric input from the user with `input()` and convert to `int` / `float`.
-- Performing arithmetic operations and percentage calculations.
-- Using conditional statements (`if` / `elif` / `else`) to handle different tip choices.
-- Formatting output and rounding numbers for currency display.
-- Using f-strings for clear console output.
+- Calculates a total tip based on bill amount and selected tip percentage.
+- Divides a bill evenly among multiple people and shows per-person cost.
+- Formats results for clear, currency-style output.
 
 ## How to Run
 
@@ -28,12 +26,11 @@ The Tip Calculator is a beginner Python challenge that practices taking user inp
 
 ## Concepts Learnt
 
-1. Reading user input with `input()`.
-2. Converting strings to numbers using `int()` and `float()`.
-3. Basic arithmetic and percentage calculations.
-4. Conditional logic with `if` / `elif` / `else`.
-5. Rounding and formatting numeric output.
-6. Using f-strings for readable output.
+- Converting string input to numbers with `int()` and `float()`
+- Performing arithmetic and percentage calculations
+- Using `if` / `elif` / `else` for branching decisions
+- Rounding numbers and formatting output (e.g., for currency)
+- Using f-strings for formatted output
 
 ## What I Learned
 

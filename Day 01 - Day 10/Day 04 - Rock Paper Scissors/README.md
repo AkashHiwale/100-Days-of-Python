@@ -1,14 +1,12 @@
 # Rock Paper Scissors
 
-Rock Paper Scissors is a beginner Python game that practices user input, conditional logic, and game rules implementation. The player chooses rock, paper, or scissors and competes against the computer to determine the winner.
+A simple console game where the user picks rock, paper, or scissors and plays against a computer opponent that makes a random choice.
 
 ## What This Project Shows
 
-- How to collect and validate user input with `input()`.
-- How to compare text values and normalize input using `.lower()`.
-- How to implement game logic with `if`, `elif`, and `else`.
-- How to use the `random` module to generate computer choices.
-- How to present game results cleanly in the console.
+- Lets users play a quick round of rock–paper–scissors against the computer.
+- Shows the winning/losing outcome clearly after each round.
+- Demonstrates simple game interactivity suitable for the console.
 
 ## How to Run
 
@@ -28,13 +26,11 @@ Rock Paper Scissors is a beginner Python game that practices user input, conditi
 
 ## Concepts Learnt
 
-1. Reading user input with `input()`.
-2. Normalizing text input using `.lower()`.
-3. Using `if`, `elif`, and `else` for decision-making.
-4. Storing and accessing values in a list.
-5. Generating random choices with `random.choice()`.
-6. Building a simple interactive console game.
+- Using lists to store multiple options (e.g., game choices)
+- Validating user input and handling invalid cases
+- Generating random choices with the `random` module (`random.choice()`)
+- Comparing program state to determine game outcomes
 
 ## What I Learned
 
-This project demonstrates how to translate game rules into Python logic and how to make a simple interactive program respond to user choices. It also reinforces the use of conditionals and the standard library for game behavior.
+This project demonstrates how to translate game rules into Python logic and how to make a simple interactive program respond to user choices. It also reinforces the use of control flow and the standard library for game behavior.
