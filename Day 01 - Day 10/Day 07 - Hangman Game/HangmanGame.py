@@ -1,9 +1,8 @@
-from replit import clear
 import random
 from Data import hangman_art
 from Data import hangman_words
 
-
+print(hangman_art.welcome)
 print(hangman_art.logo)
 
 word_list = hangman_words.word_list
@@ -13,19 +12,17 @@ word_length = len(chosen_word)
 end_of_game = False
 lives = 6
 
-#Testing code
-#print(f'Pssst, the solution is {chosen_word}.')
-
 #Create blanks
 display = []
-for _ in range(word_length):
+for letter in range(word_length):
     display += "_"
+
+# Show blanks before the first guess
+print(f"{' '.join(display)}")
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
 
-    clear()
-    print(hangman_art.logo)
     if guess in display:
       print(f"{guess} has been already gussed.")
 
