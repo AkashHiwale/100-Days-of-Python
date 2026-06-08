@@ -1,36 +1,40 @@
 # Rock Paper Scissors
 
-A simple console game where the user picks rock, paper, or scissors and plays against a computer opponent that makes a random choice.
+A console game where the user selects rock, paper, or scissors and plays a single round against a computer-generated choice.
 
 ## What This Project Shows
 
-- Lets users play a quick round of rock–paper–scissors against the computer.
-- Shows the winning/losing outcome clearly after each round.
-- Demonstrates simple game interactivity suitable for the console.
+- Accepts a numeric choice from the user for rock, paper, or scissors.
+- Generates a random computer choice using the standard library.
+- Compares the user’s selection with the opponent’s selection to determine the outcome.
+- Handles invalid input and ends the game cleanly if the choice is not valid.
 
 ## How to Run
 
-1. Install Python 3.8 or newer.
-2. Clone this repository.
-3. Open the folder in VS Code.
-4. Open the terminal in `Day 01 - Day 10/Day 04 - Rock Paper Scissors`.
-5. Run:
+### Prerequisites
 
-   `python RockPaperScissors.py` or `py -u RockPaperScissors.py`
+* Python 3.8 or newer
+* Visual Studio Code (optional)
 
-6. If you see an error about a missing dependency, run:
+### Steps
 
-   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
+1. Clone the repository.
+2. Open the `Day 01 - Day 10/Day 04 - Rock Paper Scissors` folder.
+3. Open a terminal in the project folder.
+4. Run the application.
 
-> Note: This project uses only the Python standard library.
+### Run Command
+
+```bash
+python RockPaperScissors.py
+```
+
+### Dependencies
+
+> Note: This project uses only the standard library and does not require additional packages.
 
 ## Concepts Learnt
 
-- Using lists to store multiple options (e.g., game choices)
-- Validating user input and handling invalid cases
-- Generating random choices with the `random` module (`random.choice()`)
-- Comparing program state to determine game outcomes
-
-## What I Learned
-
-This project demonstrates how to translate game rules into Python logic and how to make a simple interactive program respond to user choices. It also reinforces the use of control flow and the standard library for game behavior.
+- **Lists** – Stores the available game options so the program can choose and display them.
+- **Random selection** – Uses `random.choice()` to select the computer’s move from a list.
+- **Input validation** – Checks that user input matches expected values before continuing.
