@@ -1,36 +1,41 @@
 # Band Name Generator
 
-An interactive console script that asks for your city and pet name, then combines them to produce a fun, memorable band name.
+An interactive console application that creates a fun band name from the city and pet name provided by the user.
 
 ## What This Project Shows
 
-- Generates a playful band name from two simple inputs (city + pet name).
-- Provides immediate console feedback so users can try different inputs quickly.
-- Demonstrates a tiny, self-contained tool suitable for beginners.
+- Accepts user input from the console for two separate values.
+- Combines text values to create a personalized output message.
+- Prints dynamic results immediately after receiving input.
+- Uses a simple flow of variables and string concatenation.
 
 ## How to Run
 
-1. Install Python 3.8 or newer.
-2. Clone this repository.
-3. Open the folder in VS Code.
-4. Open the terminal in `Day 01 - Day 10/Day 01 - Band Name Generator`.
-5. Run:
+### Prerequisites
 
-   `python BandNameGenarator.py` or `py -u BandNameGenerator.py`
+* Python 3.8 or newer
+* Visual Studio Code (optional)
 
-6. If you see an error about a missing dependency, run:
+### Steps
 
-   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
+1. Clone the repository.
+2. Open the `Day 01 - Day 10/Day 01 - Band Name Generator` folder.
+3. Open a terminal in the project folder.
+4. Run the application.
 
-> Note: This project does not require any external packages beyond the standard Python library.
+### Run Command
+
+```bash
+python BandNameGenerator.py
+```
+
+### Dependencies
+
+> Note: This project uses only the standard library and does not require additional packages.
 
 ## Concepts Learnt
 
-- Using `input()` to collect user input
-- Storing values in variables
-- Displaying output with `print()`
-- Combining strings to form formatted results
-
-## What I Learned
-
-This first project is a great introduction to Python basics, especially how Python can interact directly with the user. It shows the foundations of building small, interactive programs and preparing code to be extended later.
+- **User Input (`input()`)** – Collects text from the user during program execution.
+- **Variables** – Stores values like the city name and pet name for later use.
+- **String Concatenation** – Combines text values to build the final band name.
+- **Console Output (`print()`)** – Displays results back to the user.

@@ -1,37 +1,42 @@
 # Tip Calculator
 
-A small utility that calculates tip amounts and (optionally) splits a bill between people, so users can quickly determine how much to pay each.
+A simple console application that calculates a tip and divides the bill evenly between people.
 
 ## What This Project Shows
 
-- Calculates a total tip based on bill amount and selected tip percentage.
-- Divides a bill evenly among multiple people and shows per-person cost.
-- Formats results for clear, currency-style output.
+- Accepts user input for bill amount, tip percentage, and number of people.
+- Calculates the total bill with tip based on the selected percentage.
+- Splits the total evenly and shows the amount each person pays.
+- Displays formatted numeric results in the console.
 
 ## How to Run
 
-1. Install Python 3.8 or newer.
-2. Clone this repository.
-3. Open the folder in VS Code.
-4. Open the terminal in `Day 01 - Day 10/Day 02 - Tip Calculator`.
-5. Run:
+### Prerequisites
 
-   `python TipCalculator.py` or `py -u TipCalculator.py`
+* Python 3.8 or newer
+* Visual Studio Code (optional)
 
-6. If you see an error about a missing dependency, run:
+### Steps
 
-   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
+1. Clone the repository.
+2. Open the `Day 01 - Day 10/Day 02 - Tip Calculator` folder.
+3. Open a terminal in the project folder.
+4. Run the application.
 
-> Note: This project uses only the Python standard library.
+### Run Command
+
+```bash
+python TipCalculator.py
+```
+
+### Dependencies
+
+> Note: This project uses only the standard library and does not require additional packages.
 
 ## Concepts Learnt
 
-- Converting string input to numbers with `int()` and `float()`
-- Performing arithmetic and percentage calculations
-- Using `if` / `elif` / `else` for branching decisions
-- Rounding numbers and formatting output (e.g., for currency)
-- Using f-strings for formatted output
-
-## What I Learned
-
-This project reinforces how to convert and manipulate numeric input, how to apply conditional logic to different user choices, and how to present clean, rounded results to users. It's a practical step toward building small, user-facing scripts that perform real-world calculations.
+- **Numeric input conversion** – Uses `float()` and `int()` to turn text input into numbers.
+- **Arithmetic calculations** – Computes tip amounts and divides the bill across people.
+- **Conditional logic** – Uses `if` / `elif` / `else` to apply different tip percentages.
+- **Rounding results** – Uses `round()` to limit the amount each person pays to two decimal places.
+- **Formatted strings (`f-strings`)** – Inserts calculated values into output text cleanly.

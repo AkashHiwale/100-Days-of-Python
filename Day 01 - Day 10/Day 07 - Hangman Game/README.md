@@ -4,34 +4,38 @@ A console-based word guessing game where the player tries to guess a hidden word
 
 ## What This Project Shows
 
-- A classic Hangman-style guessing game implemented in Python.
-- How to track guessed letters, update game state, and show progress to the player.
-- How to use loops and conditional logic to drive game flow.
+- Lets the player enter letters to guess a hidden word.
+- Tracks correct and incorrect guesses to update game progress.
+- Uses game state and lives to determine win or lose conditions.
+- Imports data from local modules for word lists and ASCII art.
 
 ## How to Run
 
-1. Install Python 3.8 or newer.
-2. Clone this repository.
-3. Open the folder in VS Code.
-4. Open the terminal in `Day 01 - Day 10/Day 07 - Hangman Game`.
-5. Run:
+### Prerequisites
 
-   `python HangmanGame.py` or `py -u HangmanGame.py`
+* Python 3.8 or newer
+* Visual Studio Code (optional)
 
-6. If you see an error about a missing dependency, run:
+### Steps
 
-   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
+1. Clone the repository.
+2. Open the `Day 01 - Day 10/Day 07 - Hangman Game` folder.
+3. Open a terminal in the project folder.
+4. Run the application.
 
-> Note: This project uses only the Python standard library.
+### Run Command
+
+```bash
+python HangmanGame.py
+```
+
+### Dependencies
+
+> Note: This project uses only the standard library and does not require additional packages.
 
 ## Concepts Learnt
 
-- Reading and validating user input with `input()`
-- Using loops to manage repeated gameplay actions
-- Tracking game progress with lists and strings
-- Applying conditional logic to respond to correct and incorrect guesses
-- Displaying simple ASCII-art and game feedback
-
-## What I Learned
-
-This project builds on basic Python skills by adding game state management and user interaction over multiple turns. It is a fun way to practice loops, conditionals, and string handling while creating a playable command-line game.
+- **Importing from modules** – Uses `from Data import hangman_art` and `from Data import hangman_words` to load game assets.
+- **Loops** – Uses a `while` loop to repeat guessing until the game ends.
+- **List and string handling** – Builds and updates the word display using lists and joins list elements into strings.
+- **Conditional logic** – Checks guess accuracy and updates lives and game status accordingly.

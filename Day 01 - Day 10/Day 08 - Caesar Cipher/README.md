@@ -1,36 +1,40 @@
 # Caesar Cipher
 
-A console-based program that encrypts and decrypts text using the Caesar cipher technique.
+A console application that encrypts and decrypts text by shifting letters through the alphabet using the Caesar cipher method.
 
 ## What This Project Shows
 
-- How to shift letters through the alphabet to encode and decode messages.
-- How to preserve non-letter characters while transforming text.
-- How to use user input and basic string operations to build a simple cipher program.
+- Accepts user input for encoding or decoding a message.
+- Applies a shift to alphabet letters while preserving non-letter characters.
+- Uses a function to encapsulate the cipher logic.
+- Repeats the process until the user chooses to stop.
 
 ## How to Run
 
-1. Install Python 3.8 or newer.
-2. Clone this repository.
-3. Open the folder in VS Code.
-4. Open the terminal in `Day 01 - Day 10/Day 08 - Caesar Cipher`.
-5. Run:
+### Prerequisites
 
-   `python CaesarCipher.py` or `py -u CaesarCipher.py`
+* Python 3.8 or newer
+* Visual Studio Code (optional)
 
-6. If you see an error about a missing dependency, run:
+### Steps
 
-   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
+1. Clone the repository.
+2. Open the `Day 01 - Day 10/Day 08 - Caesar Cipher` folder.
+3. Open a terminal in the project folder.
+4. Run the application.
 
-> Note: This project uses only the Python standard library.
+### Run Command
+
+```bash
+python CaesarCipher.py
+```
+
+### Dependencies
+
+> Note: This project uses only the standard library and does not require additional packages.
 
 ## Concepts Learnt
 
-- Collecting input with `input()`
-- Transforming strings with loops and indexing
-- Preserving letters and non-letter characters correctly
-- Implementing a simple encryption/decryption technique
-
-## What I Learned
-
-This project shows how even a small amount of logic can create a useful text transformation tool. It is a good exercise in string processing, character mapping, and control flow.
+- **Functions** – Defines `caesar()` to encapsulate and reuse the cipher logic.
+- **Alphabet mapping** – Uses a duplicated alphabet list to shift letter positions and wrap around the alphabet.
+- **Modular arithmetic** – Applies `shift % 25` to constrain the shift value within the alphabet range.

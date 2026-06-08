@@ -1,36 +1,41 @@
 # Treasure Island
 
-A short interactive adventure where the player makes decisions (left/right, swim/wait, etc.) to try to find the treasure and reach different endings.
+A text-based console adventure where the player makes choices to try to find the treasure and reach different endings.
 
 ## What This Project Shows
 
-- Presents a simple, text-based adventure with branching outcomes based on choices.
-- Lets users explore different paths by entering decisions at prompts.
-- Demonstrates how small changes in input lead to different endings.
+- Accepts player input for a series of story decisions.
+- Uses choices to branch the adventure into multiple paths and endings.
+- Handles text input consistently through normalization.
+- Shows sequential game flow with prompts and outcomes.
 
 ## How to Run
 
-1. Install Python 3.8 or newer.
-2. Clone this repository.
-3. Open the folder in VS Code.
-4. Open the terminal in `Day 01 - Day 10/Day 03 - Treasure Island`.
-5. Run:
+### Prerequisites
 
-   `python TreasureIsland.py` or `py -u TreasureIsland.py`
+* Python 3.8 or newer
+* Visual Studio Code (optional)
 
-6. If you see an error about a missing dependency, run:
+### Steps
 
-   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
+1. Clone the repository.
+2. Open the `Day 01 - Day 10/Day 03 - Treasure Island` folder.
+3. Open a terminal in the project folder.
+4. Run the application.
 
-> Note: This project uses only the Python standard library.
+### Run Command
+
+```bash
+python TreasureIsland.py
+```
+
+### Dependencies
+
+> Note: This project uses only the standard library and does not require additional packages.
 
 ## Concepts Learnt
 
-- Normalizing and comparing text input using `.lower()`
-- Implementing nested branching logic to create multiple story paths
-- Using multiline strings for ASCII-art or long story prompts
-- Structuring a basic text-based adventure with sequential decision points
-
-## What I Learned
-
-This project is a great introduction to branching logic in Python. It shows how different player choices can lead to different endings and how to structure a basic interactive game script.
+- **Text normalization (`.lower()`)** – Converts user input to lowercase for reliable comparison.
+- **Conditional statements** – Uses `if`, `elif`, and `else` to handle different user decisions.
+- **Nested branching logic** – Places conditionals inside other conditionals to create multiple story paths.
+- **Multiline strings** – Uses triple-quoted text blocks to show longer prompts in the console.

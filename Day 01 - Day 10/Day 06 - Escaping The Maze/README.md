@@ -1,29 +1,32 @@
 # Escaping The Maze
 
-A browser-based maze activity where code is used to guide a robot through the maze on Reeborg's World.
+A browser-based maze activity that uses Python code to guide a virtual robot through a maze in Reeborg's World.
 
 ## What This Project Shows
 
-- How to control a virtual robot through a maze using code.
-- How to translate maze directions into sequential movement instructions.
-- How to run Python code in a browser-based coding environment.
+- Controls a virtual robot with Python movement commands.
+- Converts maze directions into sequential instructions.
+- Uses looping to repeat actions until the maze is solved.
+- Runs code in a browser-based Python learning environment.
 
 ## How to Run
 
+### Prerequisites
+
+* Web browser with internet access
+* Visual Studio Code or a text editor (optional)
+
+### Steps
+
 1. Open the Reeborg link below in your browser.
-2. Paste the contents of `EscapingTheMaze.py` into the code editor.
-3. Run the code from the browser interface.
+2. Paste the contents of `EscapingTheMaze.py` into the online code editor.
+3. Run the code through the browser interface.
 4. Observe the robot moving through the maze and adjust instructions if needed.
 
 To play this game, [click here](http://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json).
 
 ## Concepts Learnt
 
-- Using sequential code instructions to navigate a maze.
-- Mapping program commands to robot movement.
-- Using a `while` loop to repeat actions until the maze is solved.
-- Testing code in an online Python environment.
-
-## What I Learned
-
-This project shows how code can directly control a virtual agent to solve a maze and reinforces step-by-step algorithm thinking in a browser-based learning environment.
+- **Sequential instructions** – Executes commands in a fixed order to move the robot step by step.
+- **Looping (`while`)** – Repeats movement actions until the maze goal is reached.
+- **Browser-based execution** – Runs Python code in an online learning environment instead of a local interpreter.

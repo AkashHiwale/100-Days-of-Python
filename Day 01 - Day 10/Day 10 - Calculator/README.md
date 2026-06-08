@@ -1,37 +1,40 @@
 # Calculator
 
-A simple console calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+A console calculator that performs basic arithmetic operations and lets the user continue calculations with the last result.
 
 ## What This Project Shows
 
-- Prompting the user for numbers and operation choices.
-- Performing arithmetic calculations in Python.
-- Displaying results clearly in the console.
-- Handling repeated user interactions until the user chooses to stop.
+- Accepts numeric input and operation choices from the user.
+- Uses a dictionary to map operation symbols to functions.
+- Reuses the previous result so users can continue calculations.
+- Encapsulates calculation logic inside a function.
 
 ## How to Run
 
-1. Install Python 3.8 or newer.
-2. Clone this repository.
-3. Open the folder in VS Code.
-4. Open the terminal in `Day 01 - Day 10/Day 10 - Calculator`.
-5. Run:
+### Prerequisites
 
-   `python Calculator.py` or `py -u Calculator.py`
+* Python 3.8 or newer
+* Visual Studio Code (optional)
 
-6. If you see an error about a missing dependency, run:
+### Steps
 
-   `pip install <dependency-name>` or `py -m pip install <dependency-name>`
+1. Clone the repository.
+2. Open the `Day 01 - Day 10/Day 10 - Calculator` folder.
+3. Open a terminal in the project folder.
+4. Run the application.
 
-> Note: This project uses only the Python standard library.
+### Run Command
+
+```bash
+python Calculator.py
+```
+
+### Dependencies
+
+> Note: This project uses only the standard library and does not require additional packages.
 
 ## Concepts Learnt
 
-- Reading numeric input from the user
-- Implementing basic arithmetic operations
-- Using loops to keep the program running
-- Showing clean output for user-friendly interaction
-
-## What I Learned
-
-This project is a practical introduction to user-driven calculations in Python. It helps build confidence with numeric input, control flow, and basic program structure.
+- **Function definitions** – Defines separate calculation functions like `add()`, `subtract()`, `multiply()`, and `divide()`.
+- **Function mapping** – Uses a dictionary to associate operator symbols with corresponding functions.
+- **Control flow for continuation** – Keeps the program running and reuses the last result when the user continues.

@@ -1,37 +1,41 @@
-
 # Password Generator
 
-A simple password generator that creates a random password using letters (upper/lower), numbers, and symbols so users can quickly get a usable secure password for testing or personal use.
+A console utility that generates a random password from letters, numbers, and symbols based on the user's selected counts.
 
 ## What This Project Shows
 
-- Generates a randomized password combining letters, digits, and punctuation.
-- Lets users control password length and see the result instantly.
-- Useful as a small utility for creating test or temporary passwords.
+- Accepts user input for the number of letters, symbols, and numbers.
+- Builds a password by selecting random characters from character lists.
+- Randomizes the final character order to improve password unpredictability.
+- Outputs the generated password directly in the console.
 
 ## How to Run
 
-1. Install Python 3.8 or newer.
-2. Clone this repository.
-3. Open the folder in VS Code.
-4. Open the terminal in `Day 01 - Day 10/Day 05 - Password Generator`.
-5. Run:
+### Prerequisites
 
-	`python PasswordGenerator.py` or `py -u PasswordGenerator.py`
+* Python 3.8 or newer
+* Visual Studio Code (optional)
 
-6. If you see an error about a missing dependency, run:
+### Steps
 
-	`pip install <dependency-name>` or `py -m pip install <dependency-name>`
+1. Clone the repository.
+2. Open the `Day 01 - Day 10/Day 05 - Password Generator` folder.
+3. Open a terminal in the project folder.
+4. Run the application.
 
-> Note: This project uses only the Python standard library.
+### Run Command
+
+```bash
+python PasswordGenerator.py
+```
+
+### Dependencies
+
+> Note: This project uses only the standard library and does not require additional packages.
 
 ## Concepts Learnt
 
-- Using `for` loops to repeat actions and collect values
-- Building and modifying lists dynamically with `append()`
-- Shuffling a list's order using `random.shuffle()`
-- Joining list elements into a single string to produce the final password
-
-## What I Learned
-
-This project demonstrates how to use Python's random selection and character sets to build a small, user-facing utility for generating passwords. It reinforces working with the standard library and designing simple, configurable console scripts that produce immediate, usable output.
+- **`for` loops** – Repeats actions for a specified number of characters requested by the user.
+- **List building and `append()`** – Collects randomly selected letters, symbols, and numbers into a list.
+- **`random.shuffle()`** – Randomizes the order of the generated password characters.
+- **String assembly** – Combines individual list elements into a final password string.
