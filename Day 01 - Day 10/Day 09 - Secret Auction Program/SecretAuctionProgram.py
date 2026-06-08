@@ -1,11 +1,13 @@
-from replit import clear
-
 from Data import art
+import os
 
 print(art.logo)
 record_dictionary = {}
 
 value = True
+
+def clear():
+  os.system('cls' if os.name == 'nt' else 'clear')
 
 def find_winner(record_dictionary):
   highest_bid = 0
