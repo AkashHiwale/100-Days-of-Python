@@ -1,6 +1,9 @@
 import random
-from replit import clear
+import os
 from Data import art
+
+def clear():
+  os.system('cls' if os.name == 'nt' else 'clear')
 
 # Method to randomly get one card
 def deal_card():

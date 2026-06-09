@@ -1,7 +1,9 @@
 from Data import art, gamedata
 import random
-from replit import clear
+import os
 
+def clear():
+  os.system('cls' if os.name == 'nt' else 'clear')
 
 def who_has_more_followers(first_person, second_person):
     if first_person > second_person:

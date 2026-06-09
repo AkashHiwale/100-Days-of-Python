@@ -1,6 +1,9 @@
 import random
+import os
 from Data import art
-from replit import clear
+
+def clear():
+  os.system('cls' if os.name == 'nt' else 'clear')
 
 def compare(random_number, user_guess):
     if random_number == user_guess:
